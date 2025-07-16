@@ -1,6 +1,6 @@
 Package: e2tree
 Title: Explainable Ensemble Trees
-Version: 0.1.2
+Version: 0.2.0
 Authors@R: c(
     person(given = "Massimo",
            family = "Aria",
@@ -20,15 +20,16 @@ BugReports: https://github.com/massimoaria/e2tree/issues
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 Imports: dplyr, doParallel, parallel, foreach, future.apply, ggplot2,
-        Matrix, partitions, purrr, tidyr, randomForest, rpart.plot,
-        Rcpp, RSpectra, ape
+        Matrix, partitions, purrr, tidyr, ranger, randomForest,
+        rpart.plot, Rcpp, RSpectra, ape
 LinkingTo: Rcpp
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: yes
-Packaged: 2025-04-10 11:11:45 UTC; massimoaria
-Author: Massimo Aria [aut, cre, cph] (<https://orcid.org/0000-0002-8517-9411>),
-  Agostino Gnasso [aut] (<https://orcid.org/0000-0002-8046-3923>)
+Packaged: 2025-07-16 10:34:25 UTC; massimoaria
+Author: Massimo Aria [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0002-8517-9411>),
+  Agostino Gnasso [aut] (ORCID: <https://orcid.org/0000-0002-8046-3923>)
 Maintainer: Massimo Aria <aria@unina.it>
 Repository: CRAN
-Date/Publication: 2025-04-12 08:20:02 UTC
+Date/Publication: 2025-07-16 12:00:02 UTC
